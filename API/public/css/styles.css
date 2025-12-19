@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4faff;
+  color: #333;
+}
+
+header {
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  background: #ccc;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+.section-title {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.carousel {
+  background-color: #add8ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px;
+  margin: 10px 0;
+  padding: 0 20px;
+}
+
+.carousel-btn {
+  background: none;
+  border: none;
+  font-size: 2rem;
+}
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.carousel-dots span {
+  width: 10px;
+  height: 10px;
+  background: #333;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-card {
+  background-color: #fff;
+  height: 150px;
+  border: 1px solid #ccc;
+}
+
+footer {
+  background: #eee;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sobre, .autoria {
+  width: 45%;
+}
+
+.redes-sociais a {
+  margin-left: 10px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.produto-detalhe {
+  display: flex;
+  gap: 30px;
+  padding: 30px 20px;
+  align-items: flex-start;
+}
+
+.imagem-produto {
+  width: 300px;
+  height: 200px;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+}
+
+.descricao {
+  flex: 1;
+}
+
+.descricao h3 {
+  color: #0077cc;
+  margin-bottom: 10px;
+}
+
+.descricao p {
+  margin-bottom: 10px;
+}
