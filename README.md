@@ -61,11 +61,6 @@ pages/
 ├── index.html
 └── detalhes.html
 
-yaml
-Copiar código
-
----
-
 ## 🗄️ Configuração do Banco de Dados
 
 O projeto utiliza **SQL Server**.
@@ -89,30 +84,25 @@ Altere usuário, senha, porta e nome do banco conforme seu ambiente.
 
 ▶️ Como Executar o Projeto
 1️⃣ Instalar dependências
-bash
-Copiar código
 npm install
 2️⃣ Iniciar o servidor
-bash
-Copiar código
+
 node app.js
 Servidor rodando em:
 
-arduino
-Copiar código
+
 http://localhost:3000
 🔌 Rotas da API
 📄 Listar todos os produtos
 bash
-Copiar código
+
 GET /produtos
 🔍 Buscar produto por código
-bash
-Copiar código
+
 GET /produtos/:codigo
 🗂️ Buscar produtos por categoria
 bash
-Copiar código
+
 GET /produtos/categoria/:categoria
 ➕ Criar produto
 bash
