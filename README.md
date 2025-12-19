@@ -94,27 +94,24 @@ Servidor rodando em:
 http://localhost:3000
 🔌 Rotas da API
 📄 Listar todos os produtos
-bash
+
 
 GET /produtos
 🔍 Buscar produto por código
 
 GET /produtos/:codigo
 🗂️ Buscar produtos por categoria
-bash
+
 
 GET /produtos/categoria/:categoria
 ➕ Criar produto
-bash
-Copiar código
+
 POST /produtos
 ✏️ Atualizar produto
-bash
-Copiar código
+
 PUT /produtos/:codigo
 ❌ Deletar produto
-bash
-Copiar código
+
 DELETE /produtos/:codigo
 🌐 Frontend
 🏠 Página Inicial
